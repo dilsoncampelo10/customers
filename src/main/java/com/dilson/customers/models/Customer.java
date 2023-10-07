@@ -32,7 +32,6 @@ public class Customer {
     private String name;
 
     @NotBlank
-    @UniqueElements
     @Column(unique = true,nullable = false)
     private String cpf;
 
@@ -69,7 +68,6 @@ public class Customer {
     private String complement;
 
     @NotBlank
-    @UniqueElements
     @Column(nullable = false, unique = true)
     private String email;
 }
