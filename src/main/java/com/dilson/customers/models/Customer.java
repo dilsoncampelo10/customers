@@ -54,7 +54,7 @@ public class Customer {
 
     @NotBlank
     @Column(nullable = false)
-    private String zip_cod;
+    private String zip_code;
 
     @NotBlank
     @Column(nullable = false)
